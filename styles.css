@@ -1,0 +1,43 @@
+body{
+    color: #495867;
+    background-color: #F7F7FF;
+    text-align: center;
+    background-image: url('images/hvalerHelene.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar{
+    background-color: #577399;
+    color:#F7F7FF ;
+}
+
+.jumbotron{
+    background-color: #BDD5EA;
+}
+
+h1{
+    margin-top: 20rem;
+    margin-bottom: 20rem;
+}
+
+.gift-curtain{   
+    position: relative; 
+    border: 1px solid red;
+    
+}
+
+#curtain-left{
+    position: absolute;
+    z-index: 3;
+    top: 0;
+
+}
+#curtain-right{
+    position: absolute;
+    z-index: 2;  
+    top: 0;  
+}
+#curtains-frame{
+    z-index: 1;    
+}
