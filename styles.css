@@ -24,20 +24,27 @@ h1{
 .gift-curtain{   
     position: relative; 
     border: 1px solid red;
-    
+    width: 60rem;
+    margin: auto;
+    background-image: url('images/hvalerHelene.jpg'); /*insert gave tema bilde her!!   */
+    background-size: cover;
 }
 
-#curtain-left{
+#curtains{
     position: absolute;
     z-index: 1;
     top: 0;
-
+}
+/* #curtain-left{
+    position: absolute;
+    z-index: 1;
+    top: 0;
 }
 #curtain-right{
     position: absolute;
     z-index: 2;  
     top: 0;  
-}
+} */
 #curtains-frame{
     position: absolute;
     z-index: 3;    
