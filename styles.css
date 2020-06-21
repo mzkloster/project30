@@ -17,17 +17,30 @@ body{
 }
 
 h1{
+    color: #FE5F55;
+    font-weight: bold;
     margin-top: 20rem;
     margin-bottom: 20rem;
 }
 
+.open-gift-button{
+    background-color: #495867;
+    color: #F7F7FF;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.gift-laptop{
+    background-image: url('images/laptopGift.jpg');
+    background-size: cover;
+}
+
 .gift-curtain{   
     position: relative; 
-    border: 1px solid red;
-    width: 60rem;
+    border: 6px solid #495867;
+    border-radius: 3px;
+    width: 80%;
     margin: auto;
-    background-image: url('images/hvalerHelene.jpg'); /*insert gave tema bilde her!!   */
-    background-size: cover;
 }
 
 #curtains{
@@ -35,16 +48,6 @@ h1{
     z-index: 1;
     top: 0;
 }
-/* #curtain-left{
-    position: absolute;
-    z-index: 1;
-    top: 0;
-}
-#curtain-right{
-    position: absolute;
-    z-index: 2;  
-    top: 0;  
-} */
 #curtains-frame{
     position: absolute;
     z-index: 3;    
