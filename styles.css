@@ -23,11 +23,29 @@ h1{
     margin-bottom: 20rem;
 }
 
+.card{
+    margin: auto;
+    width: 80%;
+}
+
+.card-header{
+    background-color: #577399;
+    color: #F7F7FF;
+}
+
+.card-body{
+    background-color: #F7F7FF;
+    display: none;
+}
+
+.card-laptop{
+    display: none;
+}
+
 .open-gift-button{
-    background-color: #495867;
+    background-color: #577399;
     color: #F7F7FF;
     margin: 0.5rem;
-    font-size: 1.2rem;
 }
 
 .gift-laptop{
@@ -37,7 +55,7 @@ h1{
 
 .gift-curtain{   
     position: relative; 
-    border: 6px solid #495867;
+    border: 6px solid #577399;
     border-radius: 3px;
     width: 80%;
     margin: auto;
