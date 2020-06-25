@@ -4,11 +4,14 @@ $('.card-header').on('click', function(){
 
 
 //   LAPTOP
-  $('#gift-curtain-laptop, #open-laptop-gift-button').on('click', function(){
-    $('#gift-curtain-laptop').children('#curtains').slideToggle(3000);
+$('.gift-alternative').children('.gift-curtain, .open-gift-button').on('click', function(){
+    $(this).parent().find('#curtains').slideToggle(3000);
 
-    if ($('#card-laptop').css("display") === 'none'){
-        $('#card-laptop').fadeTo(2500, 0.25).fadeTo(1000, 1);
-    }
+    if ($(this).parent().find('.card').css("display") === 'none'){
+        $(this).parent().find('.card').fadeTo(2500, 0.25).fadeTo(1000, 1);
+    }    
 });
+
+
+
 
