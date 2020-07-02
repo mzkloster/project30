@@ -86,4 +86,11 @@ h1{
      
 }
 
+/* Cruise */
+#gift-curtain-cruise{
+    background-image: url('images/cruiseGift.jpg');
+    background-size: cover;
+     
+}
+
 
