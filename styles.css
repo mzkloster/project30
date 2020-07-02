@@ -79,4 +79,11 @@ h1{
     background-size: cover;
 }
 
+/* EL-SCOOTER */
+#gift-curtain-elScooter{
+    background-image: url('images/elScooterGift.png');
+    background-size: cover;
+     
+}
+
 
