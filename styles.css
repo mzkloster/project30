@@ -2,17 +2,10 @@ body{
     color: #495867;
     background-color: #F7F7FF;
     text-align: center;
-    /* background-image: url('images/hvalerHelene.jpg');
-    background-position: top center;
-    background-attachment: fixed;
-    background-size: cover;     */
-}
-
-.container-fluid{
     background-image: url('images/hvalerHelene.jpg');
     background-position: top center;
     background-attachment: fixed;
-    background-size: cover;   
+    background-size: cover;    
 }
 
 .navbar{
