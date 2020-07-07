@@ -8,7 +8,7 @@ $('.gift-alternative').children('.gift-curtain, .open-gift-button').on('click', 
     $(this).parent().find('#curtains').slideToggle(3000);
 
     if ($(this).parent().find('.card').css("display") === 'none'){
-        $(this).parent().find('.card').fadeTo(2500, 0.25).fadeTo(1000, 1);
+        $(this).parent().find('.card').fadeTo(2000, 0.10).fadeTo(1000, 1);
     }    
 });
 
