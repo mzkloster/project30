@@ -11,13 +11,3 @@ $('.gift-alternative').children('.gift-curtain, .open-gift-button').on('click', 
     }    
 });
 
-var bg = $("#bg");
-
-function resizeBackground() {
-    bg.height( $(window).height() + 60);
-}
-
-$(window).resize(resizeBackground);
-resizeBackground();
-
-
