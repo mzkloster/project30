@@ -2,16 +2,6 @@ $('.card-header').on('click', function(){
     $(this).siblings('.card-body').slideToggle();
 });
 
-var bg = $('body');
-
-function resizeBackground() {
-    bg.height( $(window).height() + 60);
-}
-
-$(window).resize(resizeBackground);
-resizeBackground();
-
-
 //   All gift curtains
 $('.gift-alternative').children('.gift-curtain, .open-gift-button').on('click', function(){
     $(this).parent().find('#curtains').slideToggle(3000);
@@ -21,6 +11,23 @@ $('.gift-alternative').children('.gift-curtain, .open-gift-button').on('click', 
     }    
 });
 
+$(function(){
+
+    var $w = $(window),
+        $background = $('body');
+  
+    // Fix background image jump on mobile
+    if ((/Android|iPhone|iPad|iPod|BlackBerry/i).test(navigator.userAgent || navigator.vendor || window.opera)) {
+      $background.css({'top': 'auto', 'bottom': 0});
+  
+      $w.resize(sizeBackground);
+      sizeBackground();
+    }
+  
+    function sizeBackground() {
+       $background.height(screen.height);
+    }
+  });
 
 
 
