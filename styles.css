@@ -114,4 +114,11 @@ h1{
      
 }
 
+/* SWEATER LIVE */
+#gift-sweater-live{
+    background-image: url('images/sweaterLive.png');
+    background-size: cover;
+     
+}
+
 
