@@ -21,8 +21,16 @@ body{
 h1{
     color: #FE5F55;
     font-weight: bold;
+}
+
+.title-margin{
     margin-top: 20rem;
-    margin-bottom: 20rem;
+    margin-bottom: 25rem;
+}
+
+.title-gift{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .hoverable:hover{
@@ -76,7 +84,13 @@ h1{
 
 /* LAPTOP */
 #gift-curtain-laptop{
-    background-image: url('images/laptopGift.jpg');
+    background-image: url('images/laptopGift2.jpg');
+    background-size: cover;
+}
+
+/* SLEEPY PICTURE */
+#gift-curtain-sleepy{
+    background-image: url('images/heleneTired.png');
     background-size: cover;
 }
 
@@ -85,6 +99,12 @@ h1{
     background-image: url('images/elScooterGift.png');
     background-size: cover;
      
+}
+
+/* BONUS GIFT FLAX */
+#gift-bonus-flax{
+    background-image: url('images/bounsGiftFlax.jpg');
+    background-size: cover;
 }
 
 /* Cruise */
